@@ -1,0 +1,53 @@
+/* Reset básico + base com REM (1rem = 10px) */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Card básico */
+.card {
+  background: white;
+  padding: 3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+/* Botão moderno */
+.btn {
+  margin-top: 2rem;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5a4dcf;
+}
